@@ -69,6 +69,13 @@ const data = [
 function App() {
 
    return (
+    <div>
+    <h2 className="animated-heading">
+  <span>Developed </span>
+  <span>by </span>
+  <span>Harshed </span>
+  <span>Abdulla</span>
+</h2>
      <div className="chart-container">
        <div className="chart-box">
          <h1 className="chart-heading">Kerala COVID Rates</h1>
@@ -93,6 +100,7 @@ function App() {
            <Line type="monotone" dataKey="Deaths" stroke="#880808"/>
          </LineChart>
          
+</div>
 </div>
 </div>
 );
