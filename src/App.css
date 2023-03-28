@@ -13,35 +13,3 @@
 .chart-heading {
   text-align: center;
 }
-.animated-heading span {
-  text-align: center;
-  opacity: 0;
-  animation-name: fadeIn;
-  animation-duration: 5s;
-  animation-fill-mode: forwards;
-}
-
-.animated-heading span:nth-child(1) {
-  animation-delay: 0.5s;
-}
-
-.animated-heading span:nth-child(2) {
-  animation-delay: 1.5s;
-}
-
-.animated-heading span:nth-child(3) {
-  animation-delay: 2.5s;
-}
-
-.animated-heading span:nth-child(4) {
-  animation-delay: 3.5s;
-}
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}

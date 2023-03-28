@@ -1,6 +1,7 @@
 import React from 'react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
 import './App.css';
+import NavigationMenu from './components/NavigationMenu';
 
 const data = [
   {
@@ -70,12 +71,7 @@ function App() {
 
    return (
     <div>
-    <h2 className="animated-heading">
-  <span>Developed </span>
-  <span>by </span>
-  <span>Harshed </span>
-  <span>Abdulla</span>
-</h2>
+    <NavigationMenu />  
      <div className="chart-container">
        <div className="chart-box">
          <h1 className="chart-heading">Kerala COVID Rates</h1>
