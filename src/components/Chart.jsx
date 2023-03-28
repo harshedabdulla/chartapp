@@ -70,7 +70,7 @@ function App() {
 
    return (
     
-      <div className="col-span-10">
+     
         <div className="chart-container">
           <div className="chart-box">
             <h1 className="chart-heading text-3xl font-bold text-gray-800 mb-4">Kerala COVID Rates</h1>
@@ -96,7 +96,7 @@ function App() {
             </LineChart>
           </div>
         </div>
-      </div>
+     
    
   );
 }
